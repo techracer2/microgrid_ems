@@ -299,7 +299,7 @@ if __name__ == "__main__":
     )
     
     # Build and solve model
-    diesel_enabled = True  # Set to False to disable diesel
+    diesel_enabled = False  # Set to False to disable diesel
     model = build_optimization_model(data, diesel_enabled)
     
     try:
